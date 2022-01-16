@@ -1,0 +1,19 @@
+Windows system access to DJI LiDAR SDK
+ 
+DJI's official SDK is relatively lazy, only a brief description is written in the part of connecting lidar in windows, and finally the part of how to obtain a frame of data is not written. . It hurts so much, so I patched it up to see the effect.
+
+
+
+The result can be seen here:
+
+https://zhuanlan.zhihu.com/p/411410065
+
+
+The specific process of DJI radar is more troublesome than other radars. It requires a UDP communication handshake process. Other radars directly send data to the target machine.
+
+
+Subsequent receiving data, displaying data, and saving data is more convenient.
+
+
+questions to contract me : lonlonago@foxmail.com
+
