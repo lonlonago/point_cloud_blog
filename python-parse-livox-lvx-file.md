@@ -10,7 +10,7 @@ Put the effect and code directly
 The code is very straightforward and simple to write, open the file, parse, display, there are no other steps, you can leave a message if you have any questions.
 
 
-
+````python
 
 # 读取雷达数据头部分:
 
@@ -51,7 +51,6 @@ print(data_tuple[33])  # device_type is 3 Horizon
 
 
 
-#----------------------------------------------------------------------------------
 # 读取雷达数据帧部分:
 
 
@@ -162,6 +161,8 @@ while (current_offset < total_len):
     assert (current_offset == next_offset)
 
 print("second ", second)
+
+````
 
 
 questions to contract me : lonlonago@foxmail.com
